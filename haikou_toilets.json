@@ -1,0 +1,2402 @@
+[
+    {
+        "id": "B0K64AMVY9",
+        "name": "无障碍公共厕所",
+        "address": "长滨四路3号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.193694,
+                20.050602
+            ]
+        }
+    },
+    {
+        "id": "B0JD5XG31Q",
+        "name": "洗手间",
+        "address": "长滨西三街远大购物中心",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.19263,
+                20.047142
+            ]
+        }
+    },
+    {
+        "id": "B0J6CMLTEP",
+        "name": "中央公园3号公共厕所",
+        "address": "长滨西四街1号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.193818,
+                20.042947
+            ]
+        }
+    },
+    {
+        "id": "B0I0VAAKA3",
+        "name": "中央公园1号公共厕所",
+        "address": "滨海大道313号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.193522,
+                20.050629
+            ]
+        }
+    },
+    {
+        "id": "B0HG0MXH5E",
+        "name": "公共厕所",
+        "address": "长滨路五源河森林公园",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.20832,
+                20.046405
+            ]
+        }
+    },
+    {
+        "id": "B0LGTA00Q5",
+        "name": "海南师范大学-化工楼厕所",
+        "address": "求是北路与运动环路交叉口西北180米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.51246,
+                19.983475
+            ]
+        }
+    },
+    {
+        "id": "B0LGF5RP4L",
+        "name": "公共厕所",
+        "address": "红旗大道与新城路交叉口东北40米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.514788,
+                19.81659
+            ]
+        }
+    },
+    {
+        "id": "B0LD39LJ98",
+        "name": "长德村公共厕所",
+        "address": "长流路与雨苍街交叉口西北380米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.186192,
+                20.035896
+            ]
+        }
+    },
+    {
+        "id": "B0LBHASZQK",
+        "name": "北辰大酒店-洗手间",
+        "address": "凤翔东路与凤翔横街交叉口西南100米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.363306,
+                19.988008
+            ]
+        }
+    },
+    {
+        "id": "B0LBAM26DQ",
+        "name": "收费公共厕所",
+        "address": "中学横路与灵中路交叉口西北180米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.440442,
+                19.96673
+            ]
+        }
+    },
+    {
+        "id": "B0LAP7KTZ1",
+        "name": "公共厕所",
+        "address": "洪王南街与荔香路交叉口西南40米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.266791,
+                19.890061
+            ]
+        }
+    },
+    {
+        "id": "B0LAF9WTZ3",
+        "name": "公共厕所",
+        "address": "南街与南一横巷交叉口南100米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.364231,
+                19.85637
+            ]
+        }
+    },
+    {
+        "id": "B0L6ZN0T0A",
+        "name": "公共厕所",
+        "address": "长影东路与长影东四街交叉口南320米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.197683,
+                19.975234
+            ]
+        }
+    },
+    {
+        "id": "B0L6ZG0TJZ",
+        "name": "公共厕所",
+        "address": "美兰区振兴路与海府一横路交叉口西北160米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.364033,
+                20.028433
+            ]
+        }
+    },
+    {
+        "id": "B0L6XC4AFB",
+        "name": "公共厕所",
+        "address": "粤海大道1号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.151378,
+                20.02697
+            ]
+        }
+    },
+    {
+        "id": "B0L6SS3FCQ",
+        "name": "女洗手间",
+        "address": "新海大道与海色路交叉口北240米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.159862,
+                20.057191
+            ]
+        }
+    },
+    {
+        "id": "B0L6NPT7GI",
+        "name": "公共洗手间",
+        "address": "海秀中路与海秀立交桥交叉口东40米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.293851,
+                20.012868
+            ]
+        }
+    },
+    {
+        "id": "B0L6KB2PLG",
+        "name": "公共厕所",
+        "address": "凤翔西路33号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.349281,
+                19.986083
+            ]
+        }
+    },
+    {
+        "id": "B0L6JUT4LG",
+        "name": "公共厕所",
+        "address": "滨海大道36-163号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.317793,
+                20.032683
+            ]
+        }
+    },
+    {
+        "id": "B0L6CH9VHO",
+        "name": "得胜沙公共厕所",
+        "address": "义兴街103号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.339094,
+                20.041945
+            ]
+        }
+    },
+    {
+        "id": "B0L6AGZEVK",
+        "name": "洗手间",
+        "address": "大同路与龙华路交叉口南80米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.337643,
+                20.03769
+            ]
+        }
+    },
+    {
+        "id": "B0L67GM6D6",
+        "name": "女洗手间",
+        "address": "五指山南路与大英山西五街交叉口西北60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.351217,
+                20.014522
+            ]
+        }
+    },
+    {
+        "id": "B0L6676J9T",
+        "name": "白沙门公园游乐场公共厕所",
+        "address": "海兴路3号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.335948,
+                20.071279
+            ]
+        }
+    },
+    {
+        "id": "B0KUR51KCK",
+        "name": "美兰服务区公共厕所",
+        "address": "美兰服务区与龙进互通交叉口东北120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.488937,
+                19.910633
+            ]
+        }
+    },
+    {
+        "id": "B0KRLM5M5R",
+        "name": "公共厕所",
+        "address": "丘海大道28号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.292417,
+                19.957072
+            ]
+        }
+    },
+    {
+        "id": "B0KKDMU347",
+        "name": "环保公共厕所",
+        "address": "海府一横路与白龙南路交叉口东100米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.363085,
+                20.027303
+            ]
+        }
+    },
+    {
+        "id": "B0KKASO8NW",
+        "name": "公共厕所",
+        "address": "云龙湖公园内",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.482786,
+                19.855829
+            ]
+        }
+    },
+    {
+        "id": "B0KK3MWJSP",
+        "name": "无障碍公共厕所",
+        "address": "建山里与美舍路交叉口西120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.356549,
+                20.036138
+            ]
+        }
+    },
+    {
+        "id": "B0KK2P5OH8",
+        "name": "八一小区旁环保公共厕所",
+        "address": "大英山西三路与环湖路交叉口北180米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.345465,
+                20.010182
+            ]
+        }
+    },
+    {
+        "id": "B0KGOSJJ5Z",
+        "name": "无障碍公共厕所",
+        "address": "白水塘路与富景路交叉口东南40米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.290349,
+                19.981452
+            ]
+        }
+    },
+    {
+        "id": "B0KG7K0C70",
+        "name": "公共厕所",
+        "address": "三亚上一街与振东街交叉口东北40米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.350293,
+                20.0439
+            ]
+        }
+    },
+    {
+        "id": "B0KG2MTYNJ",
+        "name": "公共厕所",
+        "address": "高登西街221号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.347076,
+                19.992691
+            ]
+        }
+    },
+    {
+        "id": "B0KG1HAY64",
+        "name": "公共厕所",
+        "address": "永桂路与永登街交叉口南260米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.210994,
+                20.005884
+            ]
+        }
+    },
+    {
+        "id": "B0KDYYSCZ6",
+        "name": "无障碍公共厕所",
+        "address": "琼州大道与福地后街交叉口西60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.359794,
+                20.003039
+            ]
+        }
+    },
+    {
+        "id": "B0KDPD15T2",
+        "name": "无障碍公共厕所",
+        "address": "椰博路与新兴路交叉口东南140米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.378306,
+                19.989243
+            ]
+        }
+    },
+    {
+        "id": "B0KDGAL8FE",
+        "name": "无障碍洗手间(海控全球精品免税城日月广场水瓶座&摩羯座)",
+        "address": "国兴大道8号日月广场东区水瓶座海控全球精品免税城(日月广场水瓶座&摩羯座)L3层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.351208,
+                20.015858
+            ]
+        }
+    },
+    {
+        "id": "B0KDGAL0T0",
+        "name": "男洗手间(海控全球精品免税城日月广场水瓶座&摩羯座)",
+        "address": "国兴大道8号日月广场东区水瓶座海控全球精品免税城(日月广场水瓶座&摩羯座)L3层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.351222,
+                20.015922
+            ]
+        }
+    },
+    {
+        "id": "B0KDGAHPMQ",
+        "name": "男洗手间(海控全球精品免税城日月广场水瓶座&摩羯座)",
+        "address": "国兴大道8号日月广场东区水瓶座海控全球精品免税城(日月广场水瓶座&摩羯座)L3层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.350784,
+                20.015315
+            ]
+        }
+    },
+    {
+        "id": "B0KDGACMP0",
+        "name": "无障碍洗手间(海控全球精品免税城日月广场水瓶座&摩羯座)",
+        "address": "国兴大道8号日月广场东区水瓶座海控全球精品免税城(日月广场水瓶座&摩羯座)L3层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.351164,
+                20.014406
+            ]
+        }
+    },
+    {
+        "id": "B0KBOZCROG",
+        "name": "公共厕所",
+        "address": "海甸一西路1号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.342807,
+                20.048328
+            ]
+        }
+    },
+    {
+        "id": "B0KBOSHDI8",
+        "name": "甲子服务区公共厕所",
+        "address": "S22文临高速与甲子服务区交叉口西480米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.446696,
+                19.632159
+            ]
+        }
+    },
+    {
+        "id": "B0KBOSCI2K",
+        "name": "甲子服务区公共厕所",
+        "address": "S22文临高速与甲子服务区交叉口西北340米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.448471,
+                19.633885
+            ]
+        }
+    },
+    {
+        "id": "B0KBHZCLBI",
+        "name": "公共厕所",
+        "address": "海岸路与德利路交叉口东180米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.335848,
+                20.063743
+            ]
+        }
+    },
+    {
+        "id": "B0KBFLX8P1",
+        "name": "公共厕所",
+        "address": "海秀西路与西站路交叉口西南100米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.290017,
+                20.012347
+            ]
+        }
+    },
+    {
+        "id": "B0KBDZDX62",
+        "name": "公共厕所",
+        "address": "新民街26号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.1952,
+                19.949241
+            ]
+        }
+    },
+    {
+        "id": "B0KA61MILT",
+        "name": "公共厕所",
+        "address": "山高街与美高街交叉口东北100米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.337219,
+                19.97677
+            ]
+        }
+    },
+    {
+        "id": "B0K6UDSXYA",
+        "name": "公共厕所",
+        "address": "中心街与沿新北街交叉口东北100米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.684654,
+                19.803382
+            ]
+        }
+    },
+    {
+        "id": "B0K6MHB0AS",
+        "name": "公共厕所",
+        "address": [],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.313141,
+                20.033586
+            ]
+        }
+    },
+    {
+        "id": "B0K66MUNMA",
+        "name": "洗手间",
+        "address": "滨海大道万绿园内(北侧)",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.313255,
+                20.036074
+            ]
+        }
+    },
+    {
+        "id": "B0K3YZ53CO",
+        "name": "喜来门岗亭移动厕所",
+        "address": "世英仓储物流有限公司西侧",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.270086,
+                19.961664
+            ]
+        }
+    },
+    {
+        "id": "B0K3MZPYZC",
+        "name": "美兰服务区公共厕所",
+        "address": "美兰服务区与龙进互通交叉口南100米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.488179,
+                19.911946
+            ]
+        }
+    },
+    {
+        "id": "B0K3FYI4OM",
+        "name": "洗手间",
+        "address": "桂林洋大道与灵桂大道交叉口北260米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.448372,
+                19.981106
+            ]
+        }
+    },
+    {
+        "id": "B0K0VOFKOX",
+        "name": "公共厕所",
+        "address": "美丽沙路与海甸五西路交叉口西南240米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.308314,
+                20.059222
+            ]
+        }
+    },
+    {
+        "id": "B0K0PHWVC7",
+        "name": "公共厕所",
+        "address": "观澜湖华谊冯小刚电影公社东方红园区",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.34988,
+                19.920897
+            ]
+        }
+    },
+    {
+        "id": "B0K0M7P3UW",
+        "name": "公共厕所",
+        "address": "成业路3号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.265452,
+                19.982859
+            ]
+        }
+    },
+    {
+        "id": "B0K0CSCVG8",
+        "name": "公共厕所",
+        "address": "大英山东一街与海府路交叉口西40米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.361459,
+                20.023112
+            ]
+        }
+    },
+    {
+        "id": "B0K02M0FQC",
+        "name": "公共厕所",
+        "address": "长德路108-2号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.203958,
+                20.001433
+            ]
+        }
+    },
+    {
+        "id": "B0JUY7XOFA",
+        "name": "公共厕所",
+        "address": "031乡道",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.56793,
+                19.92058
+            ]
+        }
+    },
+    {
+        "id": "B0JUS7HQ8A",
+        "name": "公共厕所(美美沉香谷)",
+        "address": "永庄西二路3号美美沉香谷",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.241908,
+                19.988771
+            ]
+        }
+    },
+    {
+        "id": "B0JU37CB76",
+        "name": "卫生间(海口万象城)",
+        "address": "金贸东路海口万象城L4层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.315864,
+                20.027644
+            ]
+        }
+    },
+    {
+        "id": "B0JU37BGEK",
+        "name": "卫生间(海口万象城)",
+        "address": "金贸东路海口万象城L5层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.315853,
+                20.027633
+            ]
+        }
+    },
+    {
+        "id": "B0JU37ADS7",
+        "name": "洗手间(海口万象城)",
+        "address": "金贸东路海口万象城B1层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.315989,
+                20.02781
+            ]
+        }
+    },
+    {
+        "id": "B0JU378O3H",
+        "name": "卫生间(海口万象城)",
+        "address": "金贸东路海口万象城B1层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.313932,
+                20.026815
+            ]
+        }
+    },
+    {
+        "id": "B0JU376YDH",
+        "name": "卫生间(海口万象城)",
+        "address": "金贸东路海口万象城B1层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.315171,
+                20.027836
+            ]
+        }
+    },
+    {
+        "id": "B0JU376B7S",
+        "name": "无障碍洗手间(海口万象城)",
+        "address": "金贸东路海口万象城L2层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.315128,
+                20.028007
+            ]
+        }
+    },
+    {
+        "id": "B0JU3763LT",
+        "name": "卫生间(海口万象城)",
+        "address": "金贸东路海口万象城L2层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.314397,
+                20.027488
+            ]
+        }
+    },
+    {
+        "id": "B0JU375O6Q",
+        "name": "卫生间(海口万象城)",
+        "address": "金贸东路海口万象城L3层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.314324,
+                20.027472
+            ]
+        }
+    },
+    {
+        "id": "B0JU371P9P",
+        "name": "无障碍洗手间(海口万象城)",
+        "address": "金贸东路海口万象城L5层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.315129,
+                20.028008
+            ]
+        }
+    },
+    {
+        "id": "B0JU371AA8",
+        "name": "无障碍洗手间(海口万象城)",
+        "address": "金贸东路海口万象城L3层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.315128,
+                20.028014
+            ]
+        }
+    },
+    {
+        "id": "B0JU1MSJX9",
+        "name": "洗手间",
+        "address": "金岭路与海垦路交叉口东北80米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.307752,
+                20.008317
+            ]
+        }
+    },
+    {
+        "id": "B0JR2AGD82",
+        "name": "拾贝洗手间",
+        "address": "埠北环路6号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.370568,
+                20.088361
+            ]
+        }
+    },
+    {
+        "id": "B0JKGH7ADG",
+        "name": "新海港码头公共厕所",
+        "address": [],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.15553,
+                20.05096
+            ]
+        }
+    },
+    {
+        "id": "B0JK7RS5PN",
+        "name": "海南师范大学-外语楼厕所",
+        "address": "求是大道与执谊路交叉口西北140米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.511823,
+                19.978516
+            ]
+        }
+    },
+    {
+        "id": "B0JK7RRIRI",
+        "name": "公共厕所",
+        "address": "142县道与火山口大道交叉口西240米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.221185,
+                19.928891
+            ]
+        }
+    },
+    {
+        "id": "B0JK7RQ811",
+        "name": "公共厕所",
+        "address": "中山南路与琼桂路交叉口西南120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.360455,
+                19.990867
+            ]
+        }
+    },
+    {
+        "id": "B0JK7ROCRU",
+        "name": "公共厕所",
+        "address": "长滨西四街与长滨八路交叉口西南200米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.175126,
+                20.042284
+            ]
+        }
+    },
+    {
+        "id": "B0JK7CRPC3",
+        "name": "公共厕所",
+        "address": "椰海大道与苍峄路交叉口西南200米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.321667,
+                19.974657
+            ]
+        }
+    },
+    {
+        "id": "B0JK75PBIH",
+        "name": "洗手间",
+        "address": "丁村一路与丁村一横街交叉口东60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.345136,
+                19.983403
+            ]
+        }
+    },
+    {
+        "id": "B0JK67QKDM",
+        "name": "公共厕所",
+        "address": "粤海大道1号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.151804,
+                20.028428
+            ]
+        }
+    },
+    {
+        "id": "B0JGO909KM",
+        "name": "公共厕所",
+        "address": "平安大道15号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.53989,
+                19.628825
+            ]
+        }
+    },
+    {
+        "id": "B0JGMZ86Z3",
+        "name": "洗手间",
+        "address": "秀华路32-2号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.288944,
+                20.008174
+            ]
+        }
+    },
+    {
+        "id": "B0JG1UF3RY",
+        "name": "公共厕所(胜嵘石斛园)",
+        "address": "224国道35号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.241106,
+                19.917183
+            ]
+        }
+    },
+    {
+        "id": "B0JG1LVI9C",
+        "name": "公共厕所",
+        "address": "学院路4号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.328645,
+                19.98385
+            ]
+        }
+    },
+    {
+        "id": "B0JDZYB7UN",
+        "name": "公共厕所",
+        "address": "丘海大道与寅鼎大道交叉口西南120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.293594,
+                19.957182
+            ]
+        }
+    },
+    {
+        "id": "B0JDZY7T1W",
+        "name": "公共厕所",
+        "address": "南海大道与秀英大道交叉口西380米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.276143,
+                19.996547
+            ]
+        }
+    },
+    {
+        "id": "B0JDUSONGM",
+        "name": "公共厕所",
+        "address": "225国道23正",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.162251,
+                20.003244
+            ]
+        }
+    },
+    {
+        "id": "B0JDSMOPE2",
+        "name": "公共厕所",
+        "address": "南海大道南长流站F1",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.206627,
+                19.99215
+            ]
+        }
+    },
+    {
+        "id": "B0JD951QWD",
+        "name": "公共厕所",
+        "address": "海甸一东路1号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.34442,
+                20.04666
+            ]
+        }
+    },
+    {
+        "id": "B0JD5XO0AR",
+        "name": "公共厕所",
+        "address": "美康街与中山南路交叉口西北200米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.360302,
+                19.974159
+            ]
+        }
+    },
+    {
+        "id": "B0JD1H60TI",
+        "name": "公共厕所",
+        "address": "海甸四东路与海彤路交叉口东420米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.358112,
+                20.056609
+            ]
+        }
+    },
+    {
+        "id": "B0JAXS62XG",
+        "name": "公共厕所(内部专用)",
+        "address": "苍峄路4号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.328122,
+                19.985293
+            ]
+        }
+    },
+    {
+        "id": "B0JAOUYR8J",
+        "name": "公共厕所(电影公社南洋潮湖边)",
+        "address": "羊山大道19号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.350888,
+                19.918129
+            ]
+        }
+    },
+    {
+        "id": "B0J3CA7Y2J",
+        "name": "公共厕所",
+        "address": "羊山大道37号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.332626,
+                19.916993
+            ]
+        }
+    },
+    {
+        "id": "B0J1KS7ZPO",
+        "name": "无障碍公共厕所",
+        "address": "桂林洋大道与美善路交叉口西北40米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.470456,
+                19.982436
+            ]
+        }
+    },
+    {
+        "id": "B0J0ROQDDU",
+        "name": "公共厕所",
+        "address": "新龙横路与新龙路交叉口南160米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.357909,
+                20.044796
+            ]
+        }
+    },
+    {
+        "id": "B0KKJ5YL1Q",
+        "name": "昌茂城邦公共厕所(暂停营业)",
+        "address": "迎宾大道22号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.341872,
+                19.97978
+            ]
+        }
+    },
+    {
+        "id": "B0JG5U888A",
+        "name": "公共厕所(暂停营业)",
+        "address": "桂林洋大道32号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.470532,
+                19.982335
+            ]
+        }
+    },
+    {
+        "id": "B0J0J6GXQ3",
+        "name": "公共厕所",
+        "address": "海秀东路与大英西路交叉口东240米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.344445,
+                20.030851
+            ]
+        }
+    },
+    {
+        "id": "B0IUJ7JM0P",
+        "name": "无障碍公共厕所",
+        "address": "华庭横路与城西横路交叉口西南60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.334355,
+                19.995312
+            ]
+        }
+    },
+    {
+        "id": "B0IU6ZA90U",
+        "name": "大同里无障碍公共厕所",
+        "address": "大同里与大同一横路交叉口南120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.338526,
+                20.033459
+            ]
+        }
+    },
+    {
+        "id": "B0IGYCHOXS",
+        "name": "公共卫生间",
+        "address": "精品小店东南侧260米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.413394,
+                20.033856
+            ]
+        }
+    },
+    {
+        "id": "B0IGXSJPU9",
+        "name": "公共卫生间",
+        "address": "大英山西三路与环湖路交叉口北180米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.345696,
+                20.010226
+            ]
+        }
+    },
+    {
+        "id": "B0IDL7HTMU",
+        "name": "公共厕所",
+        "address": [],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.350396,
+                20.034733
+            ]
+        }
+    },
+    {
+        "id": "B0IDBDMCKQ",
+        "name": "公共厕所",
+        "address": "南海大道995号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.16427,
+                19.97936
+            ]
+        }
+    },
+    {
+        "id": "B0IBTC5BVL",
+        "name": "北港村公共厕所",
+        "address": "北港岛游客接待中心东北侧70米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.569973,
+                20.018959
+            ]
+        }
+    },
+    {
+        "id": "B0IBG7NJ8U",
+        "name": "公共厕所",
+        "address": "美社农家院东北侧",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.220071,
+                19.919461
+            ]
+        }
+    },
+    {
+        "id": "B0IAZSTER7",
+        "name": "公共厕所",
+        "address": "白沙门公园内(北侧)",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.335766,
+                20.075226
+            ]
+        }
+    },
+    {
+        "id": "B0IAV7K4DY",
+        "name": "公共厕所",
+        "address": "丽晶路与杜鹃路交叉口东南40米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.291756,
+                20.03233
+            ]
+        }
+    },
+    {
+        "id": "B0IALL4XOK",
+        "name": "男洗手间(海口秀英万达广场)",
+        "address": "海榆中线29号海口秀英万达广场B1层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.278363,
+                19.97907
+            ]
+        }
+    },
+    {
+        "id": "B0IALL4XOJ",
+        "name": "女洗手间(海口秀英万达广场)",
+        "address": "海榆中线29号海口秀英万达广场B1层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.278408,
+                19.979047
+            ]
+        }
+    },
+    {
+        "id": "B0IALL4XOE",
+        "name": "无障碍洗手间(海口秀英万达广场)",
+        "address": "海榆中线29号海口秀英万达广场B2层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.277881,
+                19.979926
+            ]
+        }
+    },
+    {
+        "id": "B0IALL3WKC",
+        "name": "无障碍洗手间(海口秀英万达广场)",
+        "address": "海榆中线29号海口秀英万达广场B2层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.278502,
+                19.979031
+            ]
+        }
+    },
+    {
+        "id": "B0IALL1PPS",
+        "name": "男洗手间(海口秀英万达广场)",
+        "address": "海榆中线29号海口秀英万达广场B2层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.27856,
+                19.979053
+            ]
+        }
+    },
+    {
+        "id": "B0IALL1PPR",
+        "name": "女洗手间(海口秀英万达广场)",
+        "address": "海榆中线29号海口秀英万达广场B2层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.2779,
+                19.97993
+            ]
+        }
+    },
+    {
+        "id": "B0IAD6T6R3",
+        "name": "公共厕所",
+        "address": "高坡上村一巷中国石化加油站",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.330737,
+                19.976389
+            ]
+        }
+    },
+    {
+        "id": "B0IA5LEA51",
+        "name": "残障洗手间(上邦百汇城)",
+        "address": "金龙路11号上邦百汇城B1层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.322593,
+                20.021355
+            ]
+        }
+    },
+    {
+        "id": "B0IA5LCSW3",
+        "name": "公共厕所(上邦百汇城)",
+        "address": "金龙路11号上邦百汇城2F层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.321982,
+                20.021369
+            ]
+        }
+    },
+    {
+        "id": "B0I2R5TIJU",
+        "name": "丘海26号无障碍公共厕所",
+        "address": "丘海大道与美俗路交叉口西南120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.293892,
+                20.000297
+            ]
+        }
+    },
+    {
+        "id": "B0I2O7T9UO",
+        "name": "公共卫生间隔断",
+        "address": "中坡街与新埠街交叉口东南160米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.365891,
+                20.053318
+            ]
+        }
+    },
+    {
+        "id": "B0I2LS06Y5",
+        "name": "公共厕所",
+        "address": "长滨五路6号西瑞广场",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.186965,
+                20.048453
+            ]
+        }
+    },
+    {
+        "id": "B0I2FOSC1J",
+        "name": "公共厕所",
+        "address": "苍峄路与椰海大道交叉口北40米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.323709,
+                19.976494
+            ]
+        }
+    },
+    {
+        "id": "B0I2FLPP5W",
+        "name": "男洗手间",
+        "address": "琼文大道与农贸一街交叉口北60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.438587,
+                19.966146
+            ]
+        }
+    },
+    {
+        "id": "B0I255GJXI",
+        "name": "无障碍洗手间",
+        "address": "新海大道与海色路交叉口西北260米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.159884,
+                20.057174
+            ]
+        }
+    },
+    {
+        "id": "B0I1VHXLR3",
+        "name": "公共厕所",
+        "address": "响水湾北侧220米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.399497,
+                19.978825
+            ]
+        }
+    },
+    {
+        "id": "B0HUNDB7UR",
+        "name": "男洗手间(东方广场)",
+        "address": "龙华一横路99号东方广场F6层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.337403,
+                20.039543
+            ]
+        }
+    },
+    {
+        "id": "B0HU1NA69B",
+        "name": "公共厕所",
+        "address": "海甸六东路白沙门公园内(南侧)",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.334704,
+                20.068619
+            ]
+        }
+    },
+    {
+        "id": "B0HRPM3RJB",
+        "name": "公共厕所(24小时开放)",
+        "address": "滨海公园路滨海大道南侧",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.324655,
+                20.037711
+            ]
+        }
+    },
+    {
+        "id": "B0HRM5JVML",
+        "name": "沙坡村公共厕所",
+        "address": "兆隆灯箱厂西北侧",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.320742,
+                19.965985
+            ]
+        }
+    },
+    {
+        "id": "B0HRJSMH2E",
+        "name": "公共厕所",
+        "address": "白石溪农贸市场",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.621574,
+                19.612313
+            ]
+        }
+    },
+    {
+        "id": "B0HKDR4XOA",
+        "name": "海南师范大学(桂林洋校区)-体育馆公共厕所",
+        "address": "博学路海南师范大学信息科学技术学院",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.514231,
+                19.979771
+            ]
+        }
+    },
+    {
+        "id": "B0HKDL5G3Q",
+        "name": "老北京街老炮胡同区公共厕所",
+        "address": "星影大道观澜湖华谊冯小刚电影公社内(西侧)",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.345957,
+                19.917621
+            ]
+        }
+    },
+    {
+        "id": "B0HKDL4ET8",
+        "name": "海南师范大学-信息楼厕所",
+        "address": "博学路海南师范大学信息科学技术学院",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.512659,
+                19.981555
+            ]
+        }
+    },
+    {
+        "id": "B0HK6D7KDG",
+        "name": "公共厕所",
+        "address": "碧海大道恒大美丽沙",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.328587,
+                20.074753
+            ]
+        }
+    },
+    {
+        "id": "B0HGV6LCQF",
+        "name": "公共厕所",
+        "address": "海南兰香食品有限公司南侧180米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.204958,
+                19.914616
+            ]
+        }
+    },
+    {
+        "id": "B0HGK6DXFR",
+        "name": "公共厕所",
+        "address": [],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.298882,
+                19.702901
+            ]
+        }
+    },
+    {
+        "id": "B0HGFP2Y7H",
+        "name": "公共厕所",
+        "address": "海口市城西中学(城南校区)东北侧50米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.349724,
+                19.961409
+            ]
+        }
+    },
+    {
+        "id": "B0HGFK3Y9D",
+        "name": "公共厕所",
+        "address": "梧桐路",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.335562,
+                19.962113
+            ]
+        }
+    },
+    {
+        "id": "B0HG6GCXYH",
+        "name": "琼台师范学院-公共厕所",
+        "address": "勤学路",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.517213,
+                19.977994
+            ]
+        }
+    },
+    {
+        "id": "B0HG2C0SK1",
+        "name": "公共厕所",
+        "address": "铭投拓展主题山庄内",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.235535,
+                19.983561
+            ]
+        }
+    },
+    {
+        "id": "B0HG0PVKEE",
+        "name": "公共厕所",
+        "address": "火山石斛园西侧60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.230495,
+                19.935918
+            ]
+        }
+    },
+    {
+        "id": "B0HBTG2DEF",
+        "name": "公共厕所",
+        "address": "凤翔横街40号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.363736,
+                19.991654
+            ]
+        }
+    },
+    {
+        "id": "B0HBMKIRWA",
+        "name": "新兴公共厕所",
+        "address": "椰博路与新兴路交叉口东南140米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.378294,
+                19.989216
+            ]
+        }
+    },
+    {
+        "id": "B0HBKRSL0Z",
+        "name": "公共厕所",
+        "address": "新埠大道与中坡街交叉口西南60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.36463,
+                20.054498
+            ]
+        }
+    },
+    {
+        "id": "B0HA69D24T",
+        "name": "大样三队公共厕所",
+        "address": "梧桐路",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.335426,
+                19.960456
+            ]
+        }
+    },
+    {
+        "id": "B0HA61BZM9",
+        "name": "公共厕所",
+        "address": "东山镇(海榆中线27号公里处)海南热带野生动植物园内(东侧)",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.250239,
+                19.771603
+            ]
+        }
+    },
+    {
+        "id": "B0H6T45ARE",
+        "name": "公共厕所(HN-HK-0442)",
+        "address": "海口三角梅共享农庄东北侧150米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.559357,
+                19.836824
+            ]
+        }
+    },
+    {
+        "id": "B0H6O7SKYH",
+        "name": "公共厕所",
+        "address": "滨江路辅路与学贤路交叉口东南120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.379485,
+                20.031756
+            ]
+        }
+    },
+    {
+        "id": "B0H6G6UC8E",
+        "name": "公共厕所(HN-HK-0425)",
+        "address": "养豪村",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.338345,
+                19.797579
+            ]
+        }
+    },
+    {
+        "id": "B0H6DH9G99",
+        "name": "公共厕所",
+        "address": "黄花梨路海南花卉大世界",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.407451,
+                19.974261
+            ]
+        }
+    },
+    {
+        "id": "B0H3DSQ2I9",
+        "name": "海南生生国际购物中心-男洗手间",
+        "address": "滨海大道28号海南生生国际购物中心B1",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.326756,
+                20.039961
+            ]
+        }
+    },
+    {
+        "id": "B0H33YSYKF",
+        "name": "残卫",
+        "address": "国兴大道南海航日月广场B1",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.346738,
+                20.014396
+            ]
+        }
+    },
+    {
+        "id": "B0H2YO1DKB",
+        "name": "公共厕所",
+        "address": "南海大道与长滨路交叉口西160米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.20653,
+                19.991444
+            ]
+        }
+    },
+    {
+        "id": "B0H21M5YK1",
+        "name": "公共厕所",
+        "address": "玉河路与八灶街交叉口东南20米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.332783,
+                20.034308
+            ]
+        }
+    },
+    {
+        "id": "B0H1O9X80E",
+        "name": "公共厕所",
+        "address": "美苑路与文明东路交叉口南20米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.370665,
+                20.037895
+            ]
+        }
+    },
+    {
+        "id": "B0H1JAO26Y",
+        "name": "公共厕所",
+        "address": "环湖路与北街交叉口西北280米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.35124,
+                20.007625
+            ]
+        }
+    },
+    {
+        "id": "B0GKM6NI82",
+        "name": "华府路公共厕所",
+        "address": "华府路与明珠路交叉口东北100米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.314794,
+                20.025052
+            ]
+        }
+    },
+    {
+        "id": "B0GK0DAVXO",
+        "name": "公共厕所",
+        "address": "土尾西三巷与新埠路交叉口南180米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.369427,
+                20.066383
+            ]
+        }
+    },
+    {
+        "id": "B0G3T9QWBU",
+        "name": "公共厕所",
+        "address": "火炬横路与光伏南路交叉口南140米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.264952,
+                19.930816
+            ]
+        }
+    },
+    {
+        "id": "B0G33SXILY",
+        "name": "公共厕所",
+        "address": "小康路",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.265451,
+                19.908843
+            ]
+        }
+    },
+    {
+        "id": "B0G259ZMHI",
+        "name": "规划局公共厕所",
+        "address": "龙昆北路龙昆北路31号办公楼",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.329305,
+                20.027952
+            ]
+        }
+    },
+    {
+        "id": "B0G0SL2EDG",
+        "name": "公共厕所",
+        "address": "长康路与长康二街交叉口西120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.200124,
+                20.009082
+            ]
+        }
+    },
+    {
+        "id": "B0G0APR3KX",
+        "name": "男洗手间",
+        "address": "新埠大道与新东一街交叉口南400米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.368165,
+                20.063234
+            ]
+        }
+    },
+    {
+        "id": "B0G07NYHQS",
+        "name": "公共厕所(HN-HK-0432)",
+        "address": "道客路3号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.344436,
+                20.007105
+            ]
+        }
+    },
+    {
+        "id": "B0FFMHD3AY",
+        "name": "公共厕所",
+        "address": "西苑路与横沟一街交叉口南180米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.354914,
+                20.072906
+            ]
+        }
+    },
+    {
+        "id": "B0FFMEA2PB",
+        "name": "公共厕所",
+        "address": "环湖路48号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.347035,
+                20.008518
+            ]
+        }
+    },
+    {
+        "id": "B0FFMC9L93",
+        "name": "滨濂夜市公共厕所",
+        "address": "贤濂路与滨涯北路交叉口东120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.30112,
+                20.003021
+            ]
+        }
+    },
+    {
+        "id": "B0FFMBUA6I",
+        "name": "公共厕所",
+        "address": "富源路与金福路交叉口东80米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.285465,
+                19.985063
+            ]
+        }
+    },
+    {
+        "id": "B0FFMBD1WT",
+        "name": "公共厕所",
+        "address": "新埠路与土尾西三巷交叉口西南60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.369517,
+                20.067579
+            ]
+        }
+    },
+    {
+        "id": "B0FFM6M6BJ",
+        "name": "公共厕所",
+        "address": "滨海大道与港集路交叉口东120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.290206,
+                20.019221
+            ]
+        }
+    },
+    {
+        "id": "B0FFM6IO2H",
+        "name": "女洗手间(新城吾悦广场)",
+        "address": "迎宾大道18号新城吾悦广场B1层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.338283,
+                19.976881
+            ]
+        }
+    },
+    {
+        "id": "B0FFM6IJK9",
+        "name": "无障碍洗手间(新城吾悦广场)",
+        "address": "迎宾大道18号新城吾悦广场B1层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.338306,
+                19.976863
+            ]
+        }
+    },
+    {
+        "id": "B0FFM5GTBF",
+        "name": "公共厕所",
+        "address": "新华南路与文明西路交叉口北120米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.34475,
+                20.038626
+            ]
+        }
+    },
+    {
+        "id": "B0FFM4KSCX",
+        "name": "公共厕所",
+        "address": "迎宾大道海口丁村万人海鲜广场",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.342638,
+                19.972066
+            ]
+        }
+    },
+    {
+        "id": "B0FFM1EEWD",
+        "name": "公共厕所",
+        "address": "诊所南侧50米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.517112,
+                19.978014
+            ]
+        }
+    },
+    {
+        "id": "B0FFM13VUQ",
+        "name": "四东海达路口公共厕所",
+        "address": "海甸四东路与海达路交叉口东北20米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.34575,
+                20.056457
+            ]
+        }
+    },
+    {
+        "id": "B0FFM10M94",
+        "name": "南宝环保公共厕所",
+        "address": "南宝路与椰林路交叉口东60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.344768,
+                20.027033
+            ]
+        }
+    },
+    {
+        "id": "B0FFM0UQIX",
+        "name": "公共厕所(友谊商业广场)",
+        "address": "大同路2号友谊商业广场4F层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.338014,
+                20.037663
+            ]
+        }
+    },
+    {
+        "id": "B0FFM0UQIW",
+        "name": "公共厕所(友谊商业广场)",
+        "address": "大同路2号友谊商业广场3F层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.338027,
+                20.03767
+            ]
+        }
+    },
+    {
+        "id": "B0FFM0UKH6",
+        "name": "公共厕所(友谊商业广场)",
+        "address": "大同路2号友谊商业广场6F层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.337397,
+                20.03736
+            ]
+        }
+    },
+    {
+        "id": "B0FFM0MS30",
+        "name": "公共厕所",
+        "address": "海秀快速路入口与海秀中路交叉口北60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.296244,
+                20.013682
+            ]
+        }
+    },
+    {
+        "id": "B0FFLQG9O1",
+        "name": "公共厕所",
+        "address": "海甸三东路中北大厦",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.345645,
+                20.052541
+            ]
+        }
+    },
+    {
+        "id": "B0FFLQF52V",
+        "name": "向荣村公共厕所",
+        "address": "向荣街与科技大道交叉口东20米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.261929,
+                20.000261
+            ]
+        }
+    },
+    {
+        "id": "B0FFLPWZZ1",
+        "name": "公共厕所",
+        "address": "琼州大道30号",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.36622,
+                19.999529
+            ]
+        }
+    },
+    {
+        "id": "B0FFLPWC37",
+        "name": "公共厕所",
+        "address": "永万路与向荣路交叉口北380米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.266777,
+                20.006786
+            ]
+        }
+    },
+    {
+        "id": "B0FFLPTI2A",
+        "name": "公共厕所",
+        "address": "杜鹃路海南省公安厅出入境管理局",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.294988,
+                20.0272
+            ]
+        }
+    },
+    {
+        "id": "B0FFLPTFVO",
+        "name": "公共厕所",
+        "address": "美俗路70-8号附近",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.282609,
+                20.001452
+            ]
+        }
+    },
+    {
+        "id": "B0FFLPPEXQ",
+        "name": "公共厕所",
+        "address": "文坛路海南文化体育公园内(西侧)",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.373208,
+                20.014539
+            ]
+        }
+    },
+    {
+        "id": "B0FFLPOV64",
+        "name": "大东路公共厕所(装修中)",
+        "address": "大东路与新民东路交叉口东南60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.348105,
+                20.040833
+            ]
+        }
+    },
+    {
+        "id": "B0FFLPMKXT",
+        "name": "公共厕所",
+        "address": "梧桐路海口丁村万人海鲜广场",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.343245,
+                19.970357
+            ]
+        }
+    },
+    {
+        "id": "B0FFLPH5HM",
+        "name": "美华路公共厕所",
+        "address": "美华路与美俗路交叉口东北320米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.291412,
+                20.003894
+            ]
+        }
+    },
+    {
+        "id": "B0FFLMCN1V",
+        "name": "无障碍洗手间(海口秀英万达广场)",
+        "address": "海榆中线29号海口秀英万达广场3F层",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.277862,
+                19.978011
+            ]
+        }
+    },
+    {
+        "id": "B0FFLMBZAZ",
+        "name": "头铺村公共厕所",
+        "address": "头铺村南路与头铺东路交叉口南80米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.316688,
+                19.980415
+            ]
+        }
+    },
+    {
+        "id": "B0FFLM482P",
+        "name": "公共厕所",
+        "address": "西苑路星海湾广场",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.356715,
+                20.066782
+            ]
+        }
+    },
+    {
+        "id": "B0FFLM4028",
+        "name": "公共厕所",
+        "address": "体坛路海南文化体育公园内(南侧)",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.37552,
+                20.014984
+            ]
+        }
+    },
+    {
+        "id": "B0FFLI1W3W",
+        "name": "公共厕所",
+        "address": "东门里与琼州大道交叉口北60米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.362472,
+                20.002536
+            ]
+        }
+    },
+    {
+        "id": "B0FFLH5KC7",
+        "name": "公共厕所",
+        "address": "人民大道海甸城",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.343185,
+                20.048487
+            ]
+        }
+    },
+    {
+        "id": "B0FFLG3QKQ",
+        "name": "公共厕所",
+        "address": [],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.363983,
+                20.030725
+            ]
+        }
+    },
+    {
+        "id": "B0FFLFPRTF",
+        "name": "公共厕所",
+        "address": "桂经路海口经济学院",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.492617,
+                19.965186
+            ]
+        }
+    },
+    {
+        "id": "B0FFLEQ4CC",
+        "name": "海南迎宾馆-洗手间",
+        "address": "大英山西三路9号(近新省政府)",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.346961,
+                20.018538
+            ]
+        }
+    },
+    {
+        "id": "B0FFLDTFEO",
+        "name": "公共厕所",
+        "address": "海垦路香樟林",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.307841,
+                20.010243
+            ]
+        }
+    }
+]
