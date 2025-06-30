@@ -1,0 +1,52 @@
+@startuml
+' Diagram Title
+title 城市免费公共厕所地图 - 核心业务流程
+
+' Define swimlanes for actors
+|用户 (User)|
+start
+:打开应用 (小程序/网页);
+
+|系统 (System)|
+:请求用户地理位置授权;
+
+|用户 (User)|
+:同意授权;
+
+|系统 (System)|
+:获取用户当前经纬度;
+:向后端请求附近厕所数据;
+note right: API: GET /api/toilets?lat=...&lng=...
+:接收厕所数据;
+:在地图上渲染厕所图标;
+
+|用户 (User)|
+repeat
+    :浏览地图;
+    if (点击筛选按钮?) then (yes)
+        :选择筛选条件
+        (例如: 24小时, 无障碍);
+        |系统 (System)|
+        :根据筛选条件重新请求数据;
+        :刷新地图上的厕所图标;
+    else (no)
+    endif
+    :点击一个厕所图标;
+repeat while (未选定目标?) is (yes)
+
+|系统 (System)|
+:展示厕所详情面板
+(地址, 开放时间, 设施...);
+
+|用户 (User)|
+:查看详情后点击“导航”按钮;
+
+|系统 (System)|
+:调用第三方地图App
+并传入目的地坐标;
+
+|用户 (User)|
+:在第三方地图App中开始导航;
+stop
+
+@enduml
