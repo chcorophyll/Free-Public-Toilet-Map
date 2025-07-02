@@ -1,0 +1,145 @@
+
+一份清晰、规范的API定义是连接前端（小程序、网页）和后端（服务器）的桥梁，也是我们高效协作的蓝图，设计一套遵循 RESTful 风格的 API 规范，它将具备易于理解、方便扩展、性能高效的特点。
+
+我们将分两部分进行：
+
+数据结构 (Models)：定义我们数据库中存储的核心数据长什么样。
+
+接口规范 (Endpoints)：定义前端如何通过URL来获取或提交这些数据。
+
+
+1. 数据结构 (Data Structures / Models)
+
+
+	模型一：Toilet (公共厕所)
+
+			interface Toilet {
+		  _id: string; // 数据库唯一ID (例如 MongoDB 的 ObjectId)
+		  sourceId: string; // 来源ID (例如，高德地图的POI ID，用于未来数据更新)
+		  name: string; // 厕所名称, e.g., "海大南门公共厕所"
+		  address: string; // 详细地址, e.g., "海南省海口市美兰区人民大道58号"
+		  
+		  // 地理位置 (使用 GeoJSON 标准格式，便于地理空间查询)
+		  location: {
+		    type: "Point";
+		    coordinates: [number, number]; // [经度(longitude), 纬度(latitude)]
+		  };
+
+		  // 属性与设施 (使用一个对象包裹，方便未来扩展)
+		  properties: {
+		    isOpen24h: boolean;    // 是否24小时开放
+		    isAccessible: boolean; // 是否有无障碍设施
+		    hasBabyCare: boolean;   // 是否有母婴室
+		    hasPaper: boolean;      // 是否提供厕纸 (可作为未来扩展)
+		    isFree: boolean;        // 是否免费 (可作为未来扩展)
+		  };
+
+		  openingHours: string; // 开放时间的文字描述, e.g., "06:00-23:00" 或 "24小时"
+		  status: "OPERATIONAL" | "CLOSED_TEMP" | "REMOVED"; // 运营状态
+		  
+		  createdAt: ISODate; // 数据创建时间
+		  updatedAt: ISODate; // 数据最后更新时间
+		}
+
+
+2. API 接口规范 (API Endpoint Specifications)
+
+API 的版本号我们定为 v1，根路径为 /api/v1
+
+2.1 核心接口：获取附近的厕所
+这是我们应用最重要的接口，用于在地图上显示厕所列表。
+
+2.1.1 基本信息
+	Endpoint: GET /api/v1/toilets
+
+	Description: 根据用户提供的经纬度和筛选条件，查询并返回一定范围内的公共厕所列表。
+
+	Query Parameters:
+
+	参数名     类型    是否必需  描述
+
+	longitude number  是       用户当前位置的经度
+
+	latitude  number  是       用户当前位置的纬度
+
+	radius    number  否       查询半径（单位：米）默认为 2000 (2公里)
+
+	filters   string  否       属性筛选，多个值用逗号分隔。例如 filters=isOpen24h,isAccessible。
+
+2.1.2 成功相应
+	Success Response (200 OK): 返回一个包含 Toilet 对象的数组 json
+
+	[
+	  {
+	    "_id": "62a8b9c8d4e5f6g7h8i9j0k1",
+	    "name": "海大南门公共厕所",
+	    "address": "海南省海口市美兰区人民大道58号",
+	    "location": {
+	      "type": "Point",
+	      "coordinates": [110.3496, 20.0617]
+	    },
+	    "properties": {
+	      "isOpen24h": true,
+	      "isAccessible": true,
+	      "hasBabyCare": false
+	    },
+	    "openingHours": "24小时"
+	  },
+	  // ... more toilet objects
+	]
+
+2.1.3 错误相应
+	Error Response (400 Bad Request): 如果 longitude 或 latitude 参数缺失或格式错误 json
+
+	{
+	  "error": "Missing or invalid required parameters: longitude, latitude"
+	}
+
+
+2.2 接口二：获取指定厕所的详细信息
+当用户点击地图上的某个厕所图标时，调用此接口获取其完整信息
+
+2.2.2 基本信息
+	Endpoint: GET /api/v1/toilets/{id}
+
+	Description: 根据厕所的唯一ID获取其详细信息。
+
+	Path Parameters:
+
+	参数名  类型     描述
+
+	id     string   Toilet 对象的 _id
+
+2.2.2 成功相应
+	Success Response (200 OK): 返回单个 Toilet 对象  json
+
+	{
+		  "_id": "62a8b9c8d4e5f6g7h8i9j0k1",
+		  "sourceId": "B0FFG9J8K7",
+		  "name": "海大南门公共厕所",
+		  "address": "海南省海口市美兰区人民大道58号",
+		  "location": {
+		    "type": "Point",
+		    "coordinates": [110.3496, 20.0617]
+		  },
+		  "properties": {
+		    "isOpen24h": true,
+		    "isAccessible": true,
+		    "hasBabyCare": false,
+		    "hasPaper": true,
+		    "isFree": true
+		  },
+		  "openingHours": "24小时",
+		  "status": "OPERATIONAL",
+		  "createdAt": "2025-06-19T09:30:00.000Z",
+		  "updatedAt": "2025-06-19T09:30:00.000Z"
+	}
+
+2.2.3 错误相应
+Error Response (404 Not Found): 如果提供的 id 在数据库中不存在 json
+
+	{
+	  "error": "Toilet not found"
+	}
+
+
