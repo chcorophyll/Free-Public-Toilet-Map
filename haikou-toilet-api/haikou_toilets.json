@@ -566,7 +566,7 @@
     {
         "id": "B0K6MHB0AS",
         "name": "公共厕所",
-        "address": [],
+        "address": "海南省海口市龙华区金贸街道万绿园",
         "location": {
             "type": "Point",
             "coordinates": [
@@ -854,7 +854,7 @@
     {
         "id": "B0JKGH7ADG",
         "name": "新海港码头公共厕所",
-        "address": [],
+        "address": "海南省海口市秀英区西秀镇海口新海滚装码头客运综合枢纽站新海港码头",
         "location": {
             "type": "Point",
             "coordinates": [
@@ -1226,7 +1226,7 @@
     {
         "id": "B0IDL7HTMU",
         "name": "公共厕所",
-        "address": [],
+        "address": "海南省海口市美兰区博爱街道红坎坡横路银苑新村",
         "location": {
             "type": "Point",
             "coordinates": [
@@ -1256,18 +1256,6 @@
             "coordinates": [
                 110.569973,
                 20.018959
-            ]
-        }
-    },
-    {
-        "id": "B0IBG7NJ8U",
-        "name": "公共厕所",
-        "address": "美社农家院东北侧",
-        "location": {
-            "type": "Point",
-            "coordinates": [
-                110.220071,
-                19.919461
             ]
         }
     },
@@ -1524,18 +1512,6 @@
         }
     },
     {
-        "id": "B0HRM5JVML",
-        "name": "沙坡村公共厕所",
-        "address": "兆隆灯箱厂西北侧",
-        "location": {
-            "type": "Point",
-            "coordinates": [
-                110.320742,
-                19.965985
-            ]
-        }
-    },
-    {
         "id": "B0HRJSMH2E",
         "name": "公共厕所",
         "address": "白石溪农贸市场",
@@ -1610,7 +1586,7 @@
     {
         "id": "B0HGK6DXFR",
         "name": "公共厕所",
-        "address": [],
+        "address": "海南省海口市秀英区东山镇227乡道",
         "location": {
             "type": "Point",
             "coordinates": [
@@ -1820,18 +1796,6 @@
             "coordinates": [
                 110.20653,
                 19.991444
-            ]
-        }
-    },
-    {
-        "id": "B0H21M5YK1",
-        "name": "公共厕所",
-        "address": "玉河路与八灶街交叉口东南20米",
-        "location": {
-            "type": "Point",
-            "coordinates": [
-                110.332783,
-                20.034308
             ]
         }
     },
@@ -2354,24 +2318,12 @@
     {
         "id": "B0FFLG3QKQ",
         "name": "公共厕所",
-        "address": [],
+        "address": "海南省海口市美兰区白龙街道和邦路美兰区法治文化广场",
         "location": {
             "type": "Point",
             "coordinates": [
                 110.363983,
                 20.030725
-            ]
-        }
-    },
-    {
-        "id": "B0FFLFPRTF",
-        "name": "公共厕所",
-        "address": "桂经路海口经济学院",
-        "location": {
-            "type": "Point",
-            "coordinates": [
-                110.492617,
-                19.965186
             ]
         }
     },
@@ -2396,6 +2348,54 @@
             "coordinates": [
                 110.307841,
                 20.010243
+            ]
+        }
+    },
+    {
+        "id": "B0FFLC8OYB",
+        "name": "公共厕所",
+        "address": "安民路与万美街交叉口东北20米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.327704,
+                20.067115
+            ]
+        }
+    },
+    {
+        "id": "B0FFLBZ99N",
+        "name": "公共洗手间",
+        "address": "双拥路与金滩路交叉口西北200米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.277935,
+                20.016396
+            ]
+        }
+    },
+    {
+        "id": "B0FFLBYW4Z",
+        "name": "公共厕所",
+        "address": "楠丰酒店东北侧280米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.233974,
+                20.028753
+            ]
+        }
+    },
+    {
+        "id": "B0FFL5JHMA",
+        "name": "公共厕所",
+        "address": "苍东村班超庙西南侧90米",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                110.305961,
+                19.961484
             ]
         }
     }
