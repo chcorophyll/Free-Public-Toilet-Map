@@ -10,7 +10,7 @@
 
 | 主屏幕 (地图视图) | 详情与导航 | 筛选面板 |
 | :---: | :---: | :---: |
-| ![主屏幕 (地图视图) UI 设计图](https://storage.googleapis.com/gemini-prod/images/56aa3f1d-f8ad-44b0-a5cd-659f8ed1c738) | ![详情与导航面板 UI 设计图](https://storage.googleapis.com/gemini-prod/images/3a104f7c-54a8-4c80-be36-394017de8708) | ![筛选面板 UI 设计图](https://storage.googleapis.com/gemini-prod/images/b2ff4eb5-502a-4ce6-a6c3-9828de3161c5) |
+| ![主屏幕 (地图视图) UI 设计图](./ui/web_ui_0.png) | ![详情与导航面板 UI 设计图](./ui/web_ui_1.png) | ![筛选面板 UI 设计图](./ui/mobile_ui.png) |
 
 
 ## ✨ 主要功能 (Features)
