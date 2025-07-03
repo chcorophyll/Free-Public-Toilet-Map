@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* src/app/globals.css */
+/* ... 其他默认样式 ... */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
