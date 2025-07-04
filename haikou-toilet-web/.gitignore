@@ -1,39 +1,35 @@
-# Node modules
+# Node.js
 node_modules/
-.next/ # Next.js build output
-.turbo/ # Turborepo cache, if you're using a monorepo with Turborepo
-
-# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
-.pnpm-store/ # pnpm store directory
+pnpm-debug.log*
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.production.local
-.env.test.local
-
-# IDE and OS files
-.DS_Store
-.idea/
-.vscode/
-.history/
-*.log
-*.swp
-*.swo
-
-# Editor preferences
-.editorconfig
-
-# Other temporary or generated files
+# Build output
+dist/
+build/
+out/
+.next/
+.cache/
+.tmp/
 temp/
-tmp/
-coverage/ # Test coverage reports
-out/ # Static export output (if using `next export`)
+*.log
 
-# Next.js specific
-next-env.d.ts # Generated TypeScript declaration file
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Environment files
+.env
+.env.*
+
+# Misc
+coverage/
+*.local
+*.sublime-workspace
+*.sublime-project
