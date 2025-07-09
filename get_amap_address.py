@@ -33,7 +33,7 @@ def get_address_from_coordinates(coordinates_list, api_key):
 
     try:
         # 发送HTTP GET请求到高德API
-        response = requests.get(base_url, params=params)
+        response = requests.get(base_url, params=params, verify=False)
         # 检查HTTP响应状态码，如果不是200，则抛出HTTPError异常
         response.raise_for_status() 
         # 将JSON响应体解析为Python字典

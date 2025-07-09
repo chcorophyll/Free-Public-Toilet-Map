@@ -29,14 +29,22 @@ const importData = async () => {
       fs.readFileSync(`${__dirname}/haikou_toilets.json`, 'utf-8')
     );
     console.log(`✅ 成功读取 ${toiletsJSON.length} 条数据从 haikou_toilets.json 文件。`);
-    
+
     // 3. 数据映射和清洗
     const toiletsToImport = toiletsJSON.map(toilet => ({
-        sourceId: toilet.id, // 将高德的 id 映射到 sourceId
+        // 关键改动：将原始数据中的 _id 映射到 Schema 的 sourceId 字段
+        sourceId: toilet._id,
         name: toilet.name,
         address: toilet.address,
         location: toilet.location,
-        // 其他字段将使用模型中定义的默认值
+        properties: { // 根据你的数据格式，直接赋值 properties 对象
+            isOpen24h: toilet.properties.isOpen24h,
+            isAccessible: toilet.properties.isAccessible,
+            hasBabyCare: toilet.properties.hasBabyCare
+        },
+        openingHours: toilet.openingHours,
+        // updatedAt 和 createdAt 会由 timestamps: true 自动生成
+        // 如果你的原始数据中有 updated 和 created 字段，也可以映射，但通常让 Mongoose 管理更好
     }));
     console.log('⏳ 正在准备导入数据...');
 
