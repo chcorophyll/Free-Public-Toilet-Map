@@ -1,7 +1,7 @@
 // src/components/ClientOnly.tsx
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 /**
  * 这是一个包装组件，它的作用是确保其子组件只在客户端渲染。
