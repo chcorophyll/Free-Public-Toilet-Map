@@ -4,8 +4,14 @@
 import { useMemo } from "react";
 import { Toilet } from "@/data/mock-toilets";
 import { getDistanceInKm, formatDistance } from "@/utils/distance";
+import { openAmapNavigation } from "@/utils/navigation";
 
-type Filters = { isOpen24h: boolean; isAccessible: boolean };
+// --- 类型定义 ---
+type Filters = {
+  isOpen24h: boolean;
+  isAccessible: boolean;
+};
+
 interface FilterPanelProps {
   isOpen: boolean;
   filters: Filters;
@@ -14,7 +20,10 @@ interface FilterPanelProps {
   userLocation: [number, number] | null;
   onFilterChange: (newFilters: Filters) => void;
   onClose: () => void;
+  onItemClick: (toilet: Toilet) => void;
 }
+
+// 【修复】这里是所有辅助组件的完整、正确的定义
 
 const CloseIcon = () => (
   <svg
@@ -32,6 +41,7 @@ const CloseIcon = () => (
     />
   </svg>
 );
+
 const FilterTag = ({
   label,
   isSelected,
@@ -57,6 +67,18 @@ const FilterTag = ({
   );
 };
 
+const NavigateIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+    className="w-5 h-5"
+  >
+    <path d="M3.105 2.289a.75.75 0 00-.826.95l1.414 4.925A3.75 3.75 0 005.565 10h8.87a3.75 3.75 0 002.872-1.836l1.414-4.925a.75.75 0 00-.826-.95A48.667 48.667 0 0010 1.5a48.667 48.667 0 00-6.895.789z" />
+    <path d="M2.25 10.043a3.75 3.75 0 002.872 1.836h8.87a3.75 3.75 0 002.872-1.836l.003-.005a.75.75 0 00-.826-.95l-1.414-4.925a.75.75 0 00-.95.826l.823 2.881a2.25 2.25 0 01-1.722 1.085H5.565a2.25 2.25 0 01-1.722-1.085l.823-2.881a.75.75 0 00-.95-.826L2.25 10.038a.75.75 0 000 .005z" />
+  </svg>
+);
+
 export const FilterPanel: React.FC<FilterPanelProps> = ({
   isOpen,
   filters,
@@ -65,9 +87,8 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
   userLocation,
   onFilterChange,
   onClose,
+  onItemClick,
 }) => {
-  // 点击筛选标签时，立即调用父组件传递的 onFilterChange (即 setFilters)
-  // 这会触发父组件的 SWR 重新请求数据
   const handleToggleFilter = (filterKey: keyof Filters) => {
     onFilterChange({
       ...filters,
@@ -75,11 +96,13 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
     });
   };
 
-  // 【核心逻辑】使用 useMemo 来计算并排序厕所列表
+  const handleNavigateClick = (e: React.MouseEvent, toilet: Toilet) => {
+    e.stopPropagation();
+    openAmapNavigation(userLocation, toilet);
+  };
+
   const displayList = useMemo(() => {
     if (!toilets || !userLocation) return [];
-
-    // 1. 为每个厕所计算出距离
     const toiletsWithDistance = toilets.map((toilet) => ({
       ...toilet,
       distanceInKm: getDistanceInKm(
@@ -89,21 +112,15 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
         toilet.location.coordinates[0]
       ),
     }));
-
-    // 2. 按距离排序
     const sortedToilets = toiletsWithDistance.sort(
       (a, b) => a.distanceInKm - b.distanceInKm
     );
-
-    // 3. 如果没有任何筛选条件，则只显示最近的10个
     const noFiltersApplied = !filters.isOpen24h && !filters.isAccessible;
     if (noFiltersApplied) {
       return sortedToilets.slice(0, 10);
     }
-
-    // 4. 如果有筛选条件，则返回所有符合条件的结果（后端已处理筛选，前端只需排序）
     return sortedToilets;
-  }, [toilets, userLocation, filters]); // 依赖项：当这些数据变化时，重新计算列表
+  }, [toilets, userLocation, filters]);
 
   const panelClasses = `fixed bottom-0 left-0 right-0 p-6 bg-[#1E1E1E] text-white transform transition-transform duration-500 ease-in-out rounded-t-2xl border-t border-gray-700 z-40 ${
     isOpen ? "translate-y-0" : "translate-y-full"
@@ -112,40 +129,35 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
   return (
     <div className={panelClasses}>
       <div className="flex flex-col gap-6 h-full">
-        {/* ... (头部和筛选标签部分保持不变) ... */}
         <div className="flex justify-between items-center flex-shrink-0">
-          {" "}
-          <h2 className="text-3xl font-bold">筛选</h2>{" "}
+          <h2 className="text-3xl font-bold">筛选</h2>
           <button
             onClick={onClose}
             className="p-2 rounded-full hover:bg-gray-700"
           >
-            {" "}
-            <CloseIcon />{" "}
-          </button>{" "}
+            <CloseIcon />
+          </button>
         </div>
         <div className="flex flex-wrap gap-4 flex-shrink-0">
-          {" "}
           <FilterTag
             label="24小时开放"
             isSelected={filters.isOpen24h}
             onClick={() => handleToggleFilter("isOpen24h")}
-          />{" "}
+          />
           <FilterTag
             label="无障碍设施"
             isSelected={filters.isAccessible}
             onClick={() => handleToggleFilter("isAccessible")}
-          />{" "}
+          />
         </div>
         <div className="border-t border-gray-700 my-2 flex-shrink-0"></div>
-
         <div className="flex-grow overflow-y-auto">
           {!userLocation ? (
             <p className="text-center text-yellow-400">
               请允许获取位置信息以查看附近列表。
             </p>
           ) : isLoading ? (
-            <p className="text-center text-gray-400">正在查找...</p>
+            <p className="text-center text-gray-400">正在应用筛选，请稍候...</p>
           ) : displayList.length === 0 ? (
             <p className="text-center text-gray-400">
               附近没有找到符合条件的公共厕所。
@@ -153,27 +165,37 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
           ) : (
             <ul className="space-y-4">
               {displayList.map((toilet) => (
-                <li key={toilet._id} className="border-b border-gray-800 pb-3">
-                  <p className="font-semibold text-white">{toilet.name}</p>
-                  <p className="text-sm text-gray-400">{toilet.address}</p>
-                  <p className="text-sm text-green-400 font-bold mt-1">
-                    {formatDistance(toilet.distanceInKm)}
-                  </p>
+                <li
+                  key={toilet._id}
+                  className="border-b border-gray-800 pb-3 flex justify-between items-center cursor-pointer hover:bg-gray-800 p-2 rounded-md"
+                  onClick={() => onItemClick(toilet)}
+                >
+                  <div>
+                    <p className="font-semibold text-white">{toilet.name}</p>
+                    <p className="text-sm text-gray-400">{toilet.address}</p>
+                    <p className="text-sm text-green-400 font-bold mt-1">
+                      {formatDistance(toilet.distanceInKm)}
+                    </p>
+                  </div>
+                  <button
+                    onClick={(e) => handleNavigateClick(e, toilet)}
+                    className="p-3 rounded-full bg-sky-500 text-white hover:bg-sky-400 flex-shrink-0 ml-4"
+                    aria-label={`导航至${toilet.name}`}
+                  >
+                    <NavigateIcon />
+                  </button>
                 </li>
               ))}
             </ul>
           )}
         </div>
-
         <div className="flex-shrink-0">
-          {" "}
           <button
             onClick={onClose}
             className="w-full mt-4 p-4 bg-white text-black text-lg font-bold rounded-lg hover:opacity-90"
           >
-            {" "}
-            关闭{" "}
-          </button>{" "}
+            关闭
+          </button>
         </div>
       </div>
     </div>
