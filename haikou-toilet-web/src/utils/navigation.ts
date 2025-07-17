@@ -1,6 +1,6 @@
 // src/utils/navigation.ts
 
-import { Toilet } from '@/data/mock-toilets';
+import { Toilet } from "@/data/mock-toilets";
 
 /**
  * 打开高德地图进行步行导航。
@@ -24,7 +24,7 @@ export function openAmapNavigation(
   // 从参数中提取经纬度
   const [startLat, startLon] = startCoords;
   const [endLon, endLat] = endToilet.location.coordinates;
-  
+
   // 对终点名称进行URL编码，防止特殊字符导致链接失效
   const endName = encodeURIComponent(endToilet.name);
 
@@ -34,5 +34,5 @@ export function openAmapNavigation(
   const url = `https://uri.amap.com/navigation?from=${startLon},${startLat},我的位置&to=${endLon},${endLat},${endName}&mode=walk&src=hainan-toilet-map`;
 
   // 在新标签页中打开链接，移动设备会自动尝试唤起高德地图App
-  window.open(url, '_blank');
+  window.open(url, "_blank");
 }
